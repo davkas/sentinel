@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sentinel.iml" filepath="$PROJECT_DIR$/sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-common/sentinel-common.iml" filepath="$PROJECT_DIR$/sentinel-common/sentinel-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-jstorm/sentinel-jstorm.iml" filepath="$PROJECT_DIR$/sentinel-jstorm/sentinel-jstorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-mq/sentinel-mq.iml" filepath="$PROJECT_DIR$/sentinel-mq/sentinel-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-tsdb/sentinel-tsdb.iml" filepath="$PROJECT_DIR$/sentinel-tsdb/sentinel-tsdb.iml" />
+    </modules>
+  </component>
+</project>
