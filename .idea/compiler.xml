@@ -23,18 +23,19 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="sentinel-common" />
+        <module name="sentinel-core" />
         <module name="sentinel-jstorm" />
         <module name="sentinel-mq" />
         <module name="sentinel-tsdb" />
-        <module name="sentinel_core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sentinel-common" target="1.5" />
+      <module name="sentinel-core" target="1.5" />
       <module name="sentinel-jstorm" target="1.5" />
       <module name="sentinel-mq" target="1.5" />
+      <module name="sentinel-parent" target="1.5" />
       <module name="sentinel-tsdb" target="1.5" />
-      <module name="sentinel_core" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
