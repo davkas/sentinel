@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62998920-98b6-4f8a-9b89-ac6ae0598434" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel-common/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel-common/src/main/java/com/davkas/common/constant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel-core/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel-core/sentinel-core.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel-jstorm/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel-mq/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel-tsdb/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sentinel.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="62998920-98b6-4f8a-9b89-ac6ae0598434" name="Default" comment="" />
     <ignored path="sentinel_parent.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -560,12 +541,12 @@
       <workItem from="1449291824909" duration="176000" />
       <workItem from="1449293416556" duration="597000" />
       <workItem from="1449332474371" duration="2062000" />
-      <workItem from="1449334976414" duration="82000" />
+      <workItem from="1449334976414" duration="178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8334000" />
+    <option name="totallyTimeSpent" value="8430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
