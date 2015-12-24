@@ -11,6 +11,7 @@
     <modules>
         <module>sentinel_storm</module>
         <module>sentinel_common</module>
+        <module>sentinel_rabbitmq</module>
     </modules>
 
 
