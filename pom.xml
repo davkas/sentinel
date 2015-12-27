@@ -12,8 +12,8 @@
         <module>sentinel_storm</module>
         <module>sentinel_common</module>
         <module>sentinel_rabbitmq</module>
-        <module>sentinel_zookeeper</module>
         <module>sentinel_netty</module>
+        <module>sentinel_zookeeper</module>
     </modules>
 
 
