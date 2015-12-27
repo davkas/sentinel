@@ -22,42 +22,40 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sentinel" />
+        <module name="sentinel_netty" />
+        <module name="sentinel_rabbitmq" />
+        <module name="sentinel_storm" />
+        <module name="sentinel_zookeeper" />
       </profile>
       <profile default="false" name="Annotation profile for sentinel-common" enabled="true">
         <sourceOutputDir name="sentinel-common\target\generated-sources\annotations" />
         <sourceTestOutputDir name="sentinel-common\target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sentinel-common" />
       </profile>
       <profile default="false" name="Annotation profile for sentinel-core" enabled="true">
         <sourceOutputDir name="sentinel-core\target\generated-sources\annotations" />
         <sourceTestOutputDir name="sentinel-core\target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sentinel-core" />
       </profile>
       <profile default="false" name="Annotation profile for sentinel-jstorm" enabled="true">
         <sourceOutputDir name="sentinel-jstorm\target\generated-sources\annotations" />
         <sourceTestOutputDir name="sentinel-jstorm\target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sentinel-jstorm" />
       </profile>
       <profile default="false" name="Annotation profile for sentinel-mq" enabled="true">
         <sourceOutputDir name="sentinel-mq\target\generated-sources\annotations" />
         <sourceTestOutputDir name="sentinel-mq\target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sentinel-mq" />
       </profile>
       <profile default="false" name="Annotation profile for sentinel-tsdb" enabled="true">
         <sourceOutputDir name="sentinel-tsdb\target\generated-sources\annotations" />
         <sourceTestOutputDir name="sentinel-tsdb\target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="sentinel-tsdb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -67,6 +65,11 @@
       <module name="sentinel-jstorm" target="1.5" />
       <module name="sentinel-mq" target="1.5" />
       <module name="sentinel-tsdb" target="1.5" />
+      <module name="sentinel_common" target="1.5" />
+      <module name="sentinel_netty" target="1.5" />
+      <module name="sentinel_rabbitmq" target="1.5" />
+      <module name="sentinel_storm" target="1.5" />
+      <module name="sentinel_zookeeper" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sentinel.iml" filepath="$PROJECT_DIR$/sentinel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sentinel-common/sentinel-common.iml" filepath="$PROJECT_DIR$/sentinel-common/sentinel-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sentinel-core/sentinel-core.iml" filepath="$PROJECT_DIR$/sentinel-core/sentinel-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sentinel-jstorm/sentinel-jstorm.iml" filepath="$PROJECT_DIR$/sentinel-jstorm/sentinel-jstorm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sentinel-mq/sentinel-mq.iml" filepath="$PROJECT_DIR$/sentinel-mq/sentinel-mq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sentinel-tsdb/sentinel-tsdb.iml" filepath="$PROJECT_DIR$/sentinel-tsdb/sentinel-tsdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel_common/sentinel_common.iml" filepath="$PROJECT_DIR$/sentinel_common/sentinel_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel_netty/sentinel_netty.iml" filepath="$PROJECT_DIR$/sentinel_netty/sentinel_netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel_rabbitmq/sentinel_rabbitmq.iml" filepath="$PROJECT_DIR$/sentinel_rabbitmq/sentinel_rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel_storm/sentinel_storm.iml" filepath="$PROJECT_DIR$/sentinel_storm/sentinel_storm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel_zookeeper/sentinel_zookeeper.iml" filepath="$PROJECT_DIR$/sentinel_zookeeper/sentinel_zookeeper.iml" />
     </modules>
   </component>
 </project>
