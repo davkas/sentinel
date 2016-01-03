@@ -11,6 +11,8 @@ import io.netty.channel.ChannelHandlerContext;
 import java.util.HashMap;
 import java.util.concurrent.*;
 
+import static com.davkas.sentinel.remoting.common.RemotingHelper.parseChannelremoteAddr;
+
 /**
  * Server与client的共用抽象类
  * Created by hzzhengxianrui on 2015/12/27.
@@ -51,7 +53,7 @@ public abstract class NettyRemotingAbstract {
                     RPCHOOK rpchook = NettyRemotingAbstract.this.getRPCHook();
                     if (rpchook != null) {
                         rpchook
-                                .doBeforeRequest(RemotingHelper.parseChannelremoteAddr(ctx.channel()), cmd);
+                                .doBeforeRequest(parseChannelremoteAddr(ctx.channel()), cmd);
                     }
                     final RemotingCommand response = pair.getObject1().processRequest(ctx,cmd);
                     if(rpchook != null){
