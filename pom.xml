@@ -14,6 +14,8 @@
         <module>sentinel_rabbitmq</module>
         <module>sentinel_netty</module>
         <module>sentinel_zookeeper</module>
+        <module>sentinel_zuul</module>
+        <module>sentinel_eureka</module>
     </modules>
 
 
