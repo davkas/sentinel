@@ -9,7 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.davkas.sentinel</groupId>
     <artifactId>sentinel_zuul</artifactId>
+    <packaging>war</packaging>
+    <name>sentinel_zuul</name>
 
     <dependencies>
         <dependency>
@@ -67,9 +70,16 @@
             <artifactId>jersey-servlet</artifactId>
             <version>1.19</version>
         </dependency>
-
-
-
+        <dependency>
+            <groupId>org.apache.cassandra</groupId>
+            <artifactId>cassandra-all</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.1</version>
+        </dependency>
     </dependencies>
 
 </project>
