@@ -16,6 +16,11 @@
         <module>sentinel_zookeeper</module>
         <module>sentinel_zuul</module>
         <module>sentinel_eureka</module>
+        <module>sentinel_ribbon</module>
+        <module>sentinel_httplient</module>
+        <module>sentinel_oauth</module>
+        <module>sentinel_oauth_client</module>
+        <module>sentinel_disruptor</module>
     </modules>
 
 
